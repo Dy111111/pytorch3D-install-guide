@@ -62,6 +62,7 @@ cub与cuda toolkit对应关系如下（图片截自[https://github.com/NVIDIA/cu
 ## 2.2 更改相关文件
 打开pytorch3D文件夹，找到setup.py文件，打开，将extra_compile_args = {“cxx”: [“-std=c++14”]} 修改为: extra_compile_args = {“cxx”: []};
 <div align=center><img src="https://img-blog.csdnimg.cn/b45442a5d939400985bed7b01ec43e83.png" width = "500px"/></div>
+
 ## 2.3 安装pytorch3D
 - 安装VS2019，以管理员身份打开下图所示的**x64 Native Tools Command Prompt for VS 2019**终端，然后cd到pytorch3d解压后的目录路径里，然后激活虚拟环境。最好用2019，VS2022可能会出一些问题。
 
