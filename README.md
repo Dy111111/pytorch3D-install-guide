@@ -36,14 +36,14 @@ pip install black usort flake8 flake8-bugbear flake8-comprehensions
 <br><br>
 ## 1.3 cub安装配置
 
-cub与cuda toolkit对应关系如下（图片截自[https://github.com/NVIDIA/cub](https://github.com/NVIDIA/cub))<div align=center><img src="https://img-blog.csdnimg.cn/1a232d798ecd43499e3a28256c6e1503.png" width = "500px" div align=center /></div>
+cub与cuda toolkit对应关系如下（图片截自[https://github.com/NVIDIA/cub](https://github.com/NVIDIA/cub))<div align=center><img src="https://img-blog.csdnimg.cn/1a232d798ecd43499e3a28256c6e1503.png" width = "400px"/></div>
 
 根据自己的cuda tookit版本选择对应的cub realase版本下载，下载地址为[https://github.com/NVIDIA/cub/releases](https://github.com/NVIDIA/cub/releases)
 - 如下图所示，点击下载解压到自己想安装的位置
-![在这里插入图片描述](https://img-blog.csdnimg.cn/fd61ffb6202c4d6bbde2317b0f16a9e4.png#pic_center =800x)
+<div align=center><img src="https://img-blog.csdnimg.cn/fd61ffb6202c4d6bbde2317b0f16a9e4.png" width = "800px"/></div>
 - 解压后，添加设置环境变量，变量名CUB_HOME，变量值即为刚才解压的cub的文件路径
 
-![在这里插入图片描述](https://img-blog.csdnimg.cn/6e446cadc89342718b9fd717f68fd541.png#pic_center =600x )
+<div align=center><img src="https://img-blog.csdnimg.cn/6e446cadc89342718b9fd717f68fd541.png" width = "600px"/></div>
  - 设置完即安装完成。
 <br><br>
  ## 1.4 MinGW安装
@@ -54,18 +54,18 @@ cub与cuda toolkit对应关系如下（图片截自[https://github.com/NVIDIA/cu
 ## 2.1首先下载解压pytorch3D到想要安装的位置
 下载地址:[https://github.com/facebookresearch/pytorch3d/releases](https://github.com/facebookresearch/pytorch3d/releases)注意版本要与pytorch对应，每个版本的Pytorch3d下有注明其适用的pytorch版本。
 - 点击下载，然后解压到相应位置即可，如果是cuda虚拟环境下运行，建议下载到虚拟环境的Lib\site-packages目录下，比如我的虚拟环境是torch-gpu，我就把pytorch3D放到D:\software\anaconda3\envs\torch-gpu\Lib\site-packages里面，然后将解压的文件夹重命名为pytorch3D
-![在这里插入图片描述](https://img-blog.csdnimg.cn/47d96599079a4d42bc5d3715cc334e96.png#pic_center =800x)
-![在这里插入图片描述](https://img-blog.csdnimg.cn/31b527bb7000469cb04a546abd8d011d.png#pic_center =800x)
+<div align=center><img src="https://img-blog.csdnimg.cn/47d96599079a4d42bc5d3715cc334e96.png" width = "800px"/></div>
+<div align=center><img src="https://img-blog.csdnimg.cn/31b527bb7000469cb04a546abd8d011d.png" width = "800px"/></div>
 
 ## 2.2 更改相关文件
 打开pytorch3D文件夹，找到setup.py文件，打开，将extra_compile_args = {“cxx”: [“-std=c++14”]} 修改为: extra_compile_args = {“cxx”: []};
-![在这里插入图片描述](https://img-blog.csdnimg.cn/b45442a5d939400985bed7b01ec43e83.png#pic_center =500x)
+<div align=center><img src="https://img-blog.csdnimg.cn/b45442a5d939400985bed7b01ec43e83.png" width = "500px"/></div>
 ## 2.3 安装pytorch3D
 - 安装VS2019，以管理员身份打开下图所示的**x64 Native Tools Command Prompt for VS 2019**终端，然后cd到pytorch3d解压后的目录路径里，然后激活虚拟环境。最好用2019，VS2022可能会出一些问题。
 
-![在这里插入图片描述](https://img-blog.csdnimg.cn/6075c85d7fb14ef896eb8780740de0ec.png#pic_center =400x )
+<div align=center><img src="https://img-blog.csdnimg.cn/6075c85d7fb14ef896eb8780740de0ec.png" width = "400px"/></div>
 
-![在这里插入图片描述](https://img-blog.csdnimg.cn/ee822b269b4f449588445af487596aa2.png#pic_center =900x)
+<div align=center><img src="https://img-blog.csdnimg.cn/ee822b269b4f449588445af487596aa2.png" width = "900px"/></div>
 - 在窗口依次输入执行下面的命令：
 
 ```powershell
