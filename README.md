@@ -37,7 +37,7 @@ pip install black usort flake8 flake8-bugbear flake8-comprehensions
 ## 1.3 cub安装配置
 
 cub与cuda toolkit对应关系如下（图片截自[https://github.com/NVIDIA/cub](https://github.com/NVIDIA/cub)）：
-![image](https://img-blog.csdnimg.cn/1a232d798ecd43499e3a28256c6e1503.png#pic_center =400x)
+![image](https://img-blog.csdnimg.cn/1a232d798ecd43499e3a28256c6e1503.png)
 根据自己的cuda tookit版本选择对应的cub realase版本下载，下载地址为[https://github.com/NVIDIA/cub/releases](https://github.com/NVIDIA/cub/releases)
 - 如下图所示，点击下载解压到自己想安装的位置
 ![在这里插入图片描述](https://img-blog.csdnimg.cn/fd61ffb6202c4d6bbde2317b0f16a9e4.png#pic_center =800x)
