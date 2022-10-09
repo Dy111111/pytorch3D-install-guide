@@ -1,6 +1,6 @@
 # 一、说明及准备工作
 
-最近在安装pytorch3D的时候遇到了很多问题，查了很多博客，但发现讲的都不太全，所以特将自己的及收集到的安装过程经验总结如下，本教程应该是目前最详细全面的安装教程了。我是在Anaconda中虚拟环境下安装的。
+最近在安装pytorch3D的时候遇到了很多问题，查了很多博客，但发现讲的都不太全，所以特将自己的及收集到的安装过程经验总结如下，本教程较为详细全面。我是在Anaconda中虚拟环境下安装的。
 ## 1.1准备工作
 官方安装教程如下：[https://github.com/facebookresearch/pytorch3d/blob/main/INSTALL.md](https://github.com/facebookresearch/pytorch3d/blob/main/INSTALL.md)，完全按照这个教程安装可能会遇到很多问题，因此需要补充一些细节。安装这个的前提是已经安装了pytorch。
 ## 1.2相关包的安装
