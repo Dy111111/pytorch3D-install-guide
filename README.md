@@ -50,7 +50,9 @@ cub与cuda toolkit对应关系如下（图片截自[https://github.com/NVIDIA/cu
 我是按照一些博客教程的步骤安装了这个，但我也不确定是不是一定需要安装，以防万一大家还是安装一下比较好。
 - 具体安装过程可以参考这篇博客[http://c.biancheng.net/view/8077.html](http://c.biancheng.net/view/8077.html)
 <br><br>
+
 # 二、pytorch3D安装
+
 ## 2.1首先下载解压pytorch3D到想要安装的位置
 下载地址:[https://github.com/facebookresearch/pytorch3d/releases](https://github.com/facebookresearch/pytorch3d/releases)注意版本要与pytorch对应，每个版本的Pytorch3d下有注明其适用的pytorch版本。
 - 点击下载，然后解压到相应位置即可，如果是cuda虚拟环境下运行，建议下载到虚拟环境的Lib\site-packages目录下，比如我的虚拟环境是torch-gpu，我就把pytorch3D放到D:\software\anaconda3\envs\torch-gpu\Lib\site-packages里面，然后将解压的文件夹重命名为pytorch3D
