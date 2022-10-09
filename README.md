@@ -94,7 +94,7 @@ C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v11.7/include\cub/device/disp
 renderer.backward.gpu.cu
 ```
 ### 解决方法：
-- **该错误原因可能是cub版本不正确，重新下载其他版本的然后配置好就行**，我遇到的就是这个问题，刚开始下载的是1.10的后来重新下载了1.71的版本把1.10的替换掉就解决了。
+- **该错误原因可能是cub版本不正确，重新下载其他版本的然后配置好就行**，我遇到的就是这个问题，刚开始下载的是1.10的后来重新下载了1.17的版本把1.10的替换掉就解决了。
 ## 3.2遇到如下报错及解决方法
 ```powershell
 C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.7\include\thrust\system\cuda\config.h(78): fatal error C1189: 
