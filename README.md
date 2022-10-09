@@ -45,7 +45,7 @@ cub与cuda toolkit对应关系如下（图片截自[https://github.com/NVIDIA/cu
 
 <div align=center><img src="https://img-blog.csdnimg.cn/6e446cadc89342718b9fd717f68fd541.png" width = "600px"/></div>
  - 设置完即安装完成。
-<br><br>
+
  ## 1.4 MinGW安装
 我是按照一些博客教程的步骤安装了这个，但我也不确定是不是一定需要安装，以防万一大家还是安装一下比较好。
 - 具体安装过程可以参考这篇博客[http://c.biancheng.net/view/8077.html](http://c.biancheng.net/view/8077.html)
